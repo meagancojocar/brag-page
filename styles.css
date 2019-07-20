@@ -2,25 +2,34 @@
 body {
     font-family: 'Inconsolata', monospace;
 }
-h1 {
-    
-}
 
-h2 {
-}
+.header {
+    overflow: shown;
+    background-color: #f1f1f1;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;    
+    width: 100%;
+    /* position: fixed; */
+  }
 
-h3 {
-}
+.socials {
+}  
 
-h4 {
+.banner {
+    background-color: lightsalmon;
+    padding: 40px 10px;
 }
-.padding-h4{
+  .padding-h4{
     padding-top: 10px;
     padding-right: 30px;
     padding-bottom: 10px;
     padding-left: 40px;
 }
 
+h3 {
+    font-size: 80px
+}
 .list{
 
 }
@@ -34,7 +43,9 @@ h4 {
 
 
 .bio {
-  }
+    padding: 40px 10px;
+
+}
 
   html {
     scroll-behavior: smooth;
