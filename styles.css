@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 5em;
+}
 
-img {
-  size: 50px
+h2 {
+  font-size: 1.5rem;
 }
 
 .row-1 {
     overflow: shown;
     background-color: #f1f1f1;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 10px;    
-    width: 100%;
+    width: 110%;
+    padding-top: 330px;
   }
 
 .row-2 {
