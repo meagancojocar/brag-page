@@ -1,39 +1,46 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container-fluid {
+  font-family: 'Nunito', sans-serif;
+}  
+
 h1 {
   font-family: 'Permanent Marker', cursive;
-  font-size: 5em;
+  font-size: 3.25em;
+  color: #0A2463;
 }
 
 h2 {
   font-size: 1.5rem;
+  color: grey;
+  padding-top: 15px;
+  padding-bottom: 15px;
+} */
+
+.heading {
+  background-color: #f1f1f1;
+  overflow: shown;
+  width: 110%;
+  padding-top: 250px;
+  padding-bottom: 3px;
 }
 
-.row-1 {
-    overflow: shown;
-    background-color: #f1f1f1;
-    width: 110%;
-    padding-top: 330px;
-  }
-
-.row-2 {
-  padding-right: 30px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-top: 10px;  
-}
-
-.container-fluid {
-  font-family: 'Inconsolata', monospace;
-}  
-
-.padding {
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 40px;
+.section1 {
+  padding-top: 80px;
+  font-family: 'Nunito', sans-serif;
+  background-color: #0A2463;
 }
 
 h3 {
-    font-size: 80px
+  font-size: 1rem;
+  color: #FF3366;
+}
+
+p {
+  color: white;
 }
 
 .padding-list{
@@ -43,20 +50,11 @@ h3 {
     padding-left: 60px;
 }
 
-
 .bio {
     padding: 40px 10px;
 
 }
 
-  html {
-    scroll-behavior: smooth;
-  }
-
-.r1c2 {
-  padding: 10px;
-}
-
-.r1c2 a {
-  padding: 5px;
+.r1c1 {
+  padding-top: 200px;
 }
