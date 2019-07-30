@@ -8,6 +8,7 @@ html {
 
 .container-fluid {
   font-family: 'Nunito', sans-serif;
+  font-weight: 700;
 }  
 
 h1 {
@@ -42,18 +43,27 @@ h2 {
   background-color: #0A2463;
 }
 
-.bio h3 {
+.row-2 h3 {
   font-family: 'Permanent Marker', cursive;
   color: white;
   font-size: 40px;
   padding-bottom: 30px;
 }
 
-.bio p {
+.row-2 p {
   color: white;
   font-size: 1.5rem;
   font-family: 'Nunito', ;
   
+}
+
+.button {
+  /* transition: background 0.3s ease; */
+}
+.button:hover {
+  color: white;
+  text-decoration: none;
+  background: 
 }
 .career {
   padding-top: 200px;
@@ -65,11 +75,3 @@ h2 {
   font-size: 40px;
   padding-bottom: 30px;
 }
-
-
-
-/* .r2c1 {
-  background-image: linear-gradient(to right, #0A2463 50%, white 50%);
-  padding-bottom: 100px;
-  padding-top: 100px;
-} */
