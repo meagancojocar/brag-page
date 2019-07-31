@@ -82,6 +82,10 @@ h1 {
 }
 .career {
   padding-top: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+
 }
 
 .career h3 {
