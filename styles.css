@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Assistant:200,400&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Assistant:200,400&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Martel+Sans:200,400,600&display=swap');
 
 html {
   scroll-behavior: smooth;
 }
 
 p {
-  font-family: 'Assistant', sans-serif;
+  /* font-family: 'Assistant', sans-serif; */
+  font-family: 'Martel Sans', sans-serif;
   font-weight: 300;
 }
 
@@ -25,15 +27,17 @@ h1 {
 }
 
 .r1c1 {
-  padding-top: 200px;
+  padding-top: 35vh;
+  max-height: 200px;
 }
 
 .row-1 p {
   color: grey;
+  font-weight: 400;
 }
 
 .row-1 img {
-  height: 60vh;
+  height: 65vh;
   max-width: 400px;
   width: 60vh;
   max-height: 400px;
@@ -58,21 +62,24 @@ h1 {
 }
 
 .row-2 img {
-  width: 45vh;
-  height: 50vh;
+  width: 70vh;
+  height: 70vh;
+  max-height: 100px:
+  max-width: 100px;
 }
 
 .button {
   display: flex;
   flex-direction: column;
   display: inline-block;
+  color: white;
   background: #ff3366;
-  padding: 0px 1px;
-  line-height: 40px;
+  padding: 0px 6px;
+  line-height: 35px;
   border-radius: 4px;
-  font-weight: 600;
   text-align: center;
   transition: background 0.3s ease;
+  font-family: 'Martel Sans', sans-serif;
 }
 
 .button:hover {
@@ -81,7 +88,7 @@ h1 {
   background: #ff3366
 }
 .career {
-  padding-top: 200px;
+  padding-top: 150px;
   display: flex;
   flex-direction: row;
   align-items: space-between;
