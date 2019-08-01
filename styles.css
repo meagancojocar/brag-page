@@ -89,10 +89,6 @@ h1 {
 }
 .career {
   padding-top: 150px;
-  display: flex;
-  flex-direction: row;
-  align-items: space-between;
-
 }
 
 .career h3 {
@@ -100,11 +96,6 @@ h1 {
   color: #0A2463;
   font-size: 40px;
   padding-bottom: 30px;
-}
-
-.row-3 {
-  display: flex;
-  align-items: space-between;
 }
 
 .row-3 p {
@@ -115,4 +106,13 @@ h1 {
   height: 100px;
   padding: 20px;
   border-left: 10px solid #ff3366;
+}
+
+.row-6 p {
+  display: block;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 2px 2px grey;
+  height: 100px;
+  padding: 20px;
 }
