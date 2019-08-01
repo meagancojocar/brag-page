@@ -23,7 +23,7 @@ h1 {
   background-color: #f1f1f1;
   overflow: shown;
   width: 110%;
-  height: 80vh; 
+  height: 80vh;
 }
 
 .r1c1 {
@@ -62,10 +62,10 @@ h1 {
 }
 
 .row-2 img {
-  width: 70vh;
-  height: 70vh;
-  max-height: 100px:
-  max-width: 100px;
+  width: 100vh;
+  height: 100vh;
+  max-height: 200px;
+  max-width: 200px;
 }
 
 .button {
@@ -110,9 +110,8 @@ h1 {
 
 .row-6 p {
   display: block;
-  border-radius: 10px;
   background: white;
-  box-shadow: 0 2px 2px grey;
+  box-shadow: 0 1px 1px grey;
   height: 100px;
   padding: 20px;
 }
