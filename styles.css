@@ -6,7 +6,6 @@ html {
 }
 
 p {
-  /* font-family: 'Assistant', sans-serif; */
   font-family: 'Martel Sans', sans-serif;
   font-weight: 300;
 }
@@ -20,18 +19,14 @@ h1 {
 
 .row-1 {
   background-color: #eee;
-  /* overflow: shown; */
   height: 80vh;
-}
-
-.r1c1 {
-  /* padding-top: 35vh; */
-  /* max-height: 200px; */
 }
 
 .row-1 p {
   color: grey;
-  font-weight: 400;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 10px 0px;
 }
 
 .row-1 img {
@@ -96,14 +91,6 @@ h1 {
   font-size: 1.4rem;
 }
 
-.row-6 p {
-  display: block;
-  background: white;
-  box-shadow: 0 1px 1px grey;
-  height: 100px;
-  padding: 20px;
-}
-
 /* Projects */
 .projects h3 {
   font-family: 'Permanent Marker', cursive;
@@ -123,13 +110,31 @@ h1 {
 }
 
 /* Week */
+.row-6 {
+  min-height: 60vh;
+}
 .week h3 {
   font-family: 'Permanent Marker', cursive;
   color: #0A2463;
   font-size: 40px;
   padding-bottom: 30px;
+}
 
-  min-height: 60vh;
+.week h4 {
+  font-size: 3.5rem;
+  color: #ff3366;
+}
+
+.week .stats {
+  padding: 25px 0px;
+}
+.week p {
+  font-size: 25px;
+  color: grey;
+}
+
+.title {
+  padding-top: 50px;
 }
 
 /* Footer */
