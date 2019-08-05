@@ -19,7 +19,8 @@ h1 {
 
 .row-1 {
   background-color: #eee;
-  height: 80vh;
+  min-height: 60vh;
+  padding-bottom: 30px;
 }
 
 .row-1 p {
@@ -34,10 +35,22 @@ h1 {
   width: 100%;
 }
 
+.heading i {
+  font-size: 1.55em;
+  color: rgb(149, 149, 149);
+  padding-right: 6px;
+}
+
+.heading i:hover {
+  color: #0A2463;
+}
+
 .row-2 {
+  padding-top: 30px;
   min-height: 60vh;
   background-color: #0A2463;
   color: white;
+  padding-bottom: 30px;
 }
 
 .row-2 h3 {
@@ -69,6 +82,9 @@ h1 {
   text-decoration: none;
   background: #d62c56
 }
+
+
+/* Career */
 .row-3 {
   min-height: 60vh;
 }
@@ -88,7 +104,7 @@ h1 {
   padding: 20px;
   border-left: 10px solid #ff3366;
   margin-bottom: 3rem!important;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 
 /* Projects */
@@ -99,14 +115,34 @@ h1 {
   padding-bottom: 30px;
 }
 
+.projects i {
+  color: #d62c56;
+  font-size: 2.5em;
+}
+
+.projects h4 {
+  color: #0A2463;
+}
+
+.projects p {
+  color: grey;
+}
+
+.projects a {
+  text-decoration: none;
+}
+
 .square-card {
   display: block;
   border-radius: 10px;
   background: white;
-  box-shadow: 0 0 20px 0px #f0f0f0;
+  box-shadow: 0 0 20px 0px rgb(235, 235, 235);
   padding: 20px;
   margin-bottom: 3rem!important;
   font-size: 1.4rem;
+}
+.square-card:hover {
+  box-shadow: 0 0 20px 0px #e6acba;
 }
 
 /* Week */
@@ -148,4 +184,8 @@ h1 {
 
 .footer h3 {
   font-family: 'Permanent Marker', cursive;
+}
+
+.footer .button {
+  border: none;
 }
