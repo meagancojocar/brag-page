@@ -21,8 +21,6 @@ h1 {
   background-color: #eee;
   min-height: 60vh;
   padding-bottom: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .row-1 p {
@@ -53,8 +51,6 @@ h1 {
   background-color: #0A2463;
   color: white;
   padding-bottom: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .row-2 h3 {
